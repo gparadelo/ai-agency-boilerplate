@@ -1,0 +1,15 @@
+client_id: "spa-del-sol"
+business_profile:
+  name: "SPA del Sol"
+  services:
+    - name: "Massage 60m"
+      duration: 60
+booking:
+  provider: "google_calendar"
+  rules:
+    lead_fields: ["name","phone","email","service"]
+crm:
+  provider: "hubspot"
+channels:
+  web:
+    enabled: true
